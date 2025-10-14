@@ -29,3 +29,13 @@ void  function functionForClassCircle(){
     console.log("the primiter of circle 2 ="+circle2.getPerimiter());
     console.log("the primiter of circle 3 ="+circle3.getPerimiter());
 }
+
+
+
+
+
+function functionForInheritance (){
+    const obj = new bike(50,120);
+    obj.getSpeedOfBike();
+    obj.getSpeedOfTheVehicle();
+}
